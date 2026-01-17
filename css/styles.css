@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Nombres';
+    src: url('../Font/Nombres.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Goudy';
+    src: url('./Font/Goudy.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Inicio {
+    width: 680px;
+    height: 1020px;
+    background-image: url('/img/Fondo.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inicio h1 {
+    font-family: 'Nombres';
+    font-size: 80px;
+    color: #3A342A;
+    text-align: center;
+    margin: 0;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Goudy';
+    font-size: 20px;
+    font-weight: 100;
+    color: #3A342A;
+    margin: 20px 0 10px 0;
+    letter-spacing: 0.2em;
+}
+
+a {
+    font-family: 'Goudy';
+    font-size: 20px;
+    font-weight: 100;
+    color: #3A342A;
+    letter-spacing: 0.2em;
+    margin-top: 80px;
+    text-decoration: none;
+}
+
+a {
+  display: inline-block;          
+  transition: transform 0.25s ease;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
