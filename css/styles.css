@@ -19,7 +19,7 @@ body {
 .Inicio {
   width: 680px;
   height: 1020px;
-  background-image: url('../img/Fondo'); 
+  background-image: url('../img/Fondo.png'); 
   background-size: cover;                   
   background-position: center;             
   background-repeat: no-repeat;            
@@ -63,6 +63,7 @@ a {
 a:hover {
   transform: scale(1.1);
 }
+
 
 
 
