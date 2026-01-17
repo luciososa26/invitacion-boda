@@ -61,3 +61,20 @@ a {
 a:hover {
   transform: scale(1.1);
 }
+
+.Firma {
+  width: 100%;
+  text-align: center;
+  font-family: 'Goudy', serif;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  color: #3A342A;
+  opacity: 0.45;
+  margin: 40px 0 20px 0;
+}
+
+.Firma span {
+  font-weight: 400;
+}
+
+
